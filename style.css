@@ -82,8 +82,11 @@ nav {
     align-items: center;
     color: var(--white);
     z-index: 100;
-    backdrop-filter: blur(10px) grayscale(10%) contrast(50%);
-}
+/*    backdrop-filter: blur(10px) grayscale(10%) contrast(50%);
+ */
+    background-color : var(--darkgreen-color);
+    }
+    
 
 nav a {
     text-decoration: none;
